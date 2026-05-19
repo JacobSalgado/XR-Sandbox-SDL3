@@ -1,0 +1,36 @@
+# Build output
+build/
+out/
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# VS Code
+.vscode/
+
+# Misc
+*.log
+*.pdb
+*.ilk
+*.exp

@@ -1,9 +1,14 @@
 #include <SDL3/SDL.h>
+#include <SDL3_ttf/SDL_ttf.h>
+#include <SDL3_image/SDL_image.h>
+#include <SDL3_mixer/SDL_mixer.h>
+
 #include <iostream>
 
 int main(int argc, char* argv[])
 {
 	SDL_Init(SDL_INIT_VIDEO);
+	TTF_Init();
 
 	SDL_Window* win = SDL_CreateWindow("SI-XR", 640, 480, 0);
 	if (win == nullptr)
